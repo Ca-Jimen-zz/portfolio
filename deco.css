@@ -1,0 +1,153 @@
+.main {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #1d3557;
+    background-color: #f1faee;
+}
+
+.title-name {
+    font-size: 5rem;
+    color: #1d3557;
+}
+
+.image {
+    /* object-fit: contain; */
+    box-sizing: border-box;
+    max-width: 380px;
+    height: auto;
+    border-radius: 50%;
+}
+
+ .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-sec {
+    display: flex;
+    flex-direction: row;
+}
+
+.courses, .interests-hobbies {
+    background-color: #bee3db;
+    border: 2px solid #1d3557;
+    box-sizing: border-box;
+    padding-top: .5rem;
+}
+
+.experience-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title{
+    color: #e63946;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+.contact-title {
+    color: #555b6e;
+}
+
+.projects, .work-history, .courses-hobbies {
+    margin-bottom: 5em;
+}
+
+li {
+    list-style-type: none;
+}
+
+form {
+    align-items: center;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.social:hover {
+    color: rgb(93, 199, 241);
+    opacity: 0.5;
+}
+
+.foot {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.courses {
+    columns: 2;
+}
+
+.navbar {
+    background-color: #1d3557;
+}
+
+.greeting {
+    padding-top: 2rem;
+}
+
+.form-inputs .form-control {
+    background-color: #f1faee;
+    color: #e63946;
+}
+
+.name-email, .message-box, .form-button {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-sec {
+    background-color: #bee3db;
+    padding: 2rem;
+    border: 2px solid #1d3557;
+    border-bottom: none;
+}
+
+.project-background,.work-history {
+    background-color: #bee3db;
+    border: 2px solid #1d3557;
+    box-sizing: border-box;
+}
+
+.project-title, .job-title {
+    margin-bottom: 1.5rem;
+    background-color: #98c1d9;
+    padding: 1rem;
+}
+
+.main .col-md-4, .main .col-md-8 {
+    padding: 0;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 767px) {
+    .hobbies-sec, .about-me {
+        margin-top: 2rem;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#experience-section, #about-me, #courses-hobbies, #projects-section {
+    scroll-margin-top: 4em;
+}
+
+/* :target::before {
+    content: "";
+    display: block;
+    height: 70px;
+    margin-top: -70px;
+} */
