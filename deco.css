@@ -12,7 +12,6 @@
 }
 
 .image {
-    /* object-fit: contain; */
     box-sizing: border-box;
     max-width: 380px;
     height: auto;
@@ -136,7 +135,7 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-    .hobbies-sec, .about-me, .image {
+    .hobbies-sec, .about-me {
         margin-top: 3rem;
     }
 
@@ -145,15 +144,16 @@ a:hover {
         flex-direction: column;
     }
 
+    .image {
+        margin-top: 2rem;
+    }
+
+    .hobbies-sec .section-title {
+        margin-top: 1.5rem;
+    }
+
 }
 
 #experience-section, #about-me, #courses-hobbies, #projects-section {
-    scroll-margin-top: 4em;
+    scroll-margin-top: 6rem;
 }
-
-/* :target::before {
-    content: "";
-    display: block;
-    height: 70px;
-    margin-top: -70px;
-} */
