@@ -84,6 +84,11 @@ a:hover {
     columns: 2;
 }
 
+.courses-hobbies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .navbar {
     background-color: #1d3557;
 }
@@ -131,14 +136,15 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-    .hobbies-sec, .about-me {
-        margin-top: 2rem;
+    .hobbies-sec, .about-me, .image {
+        margin-top: 3rem;
     }
 
     .projects {
         display: flex;
         flex-direction: column;
     }
+
 }
 
 #experience-section, #about-me, #courses-hobbies, #projects-section {
